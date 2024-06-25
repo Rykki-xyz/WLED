@@ -212,9 +212,9 @@ void registerUsermods()
    * \/ \/ \/
    */
   //usermods.add(new MyExampleUsermod());
-  #ifdef USERMOD_BATTERY
-  usermods.add(new UsermodBattery());
-  #endif
+  ifdef USERMOD_AMBILIGHT
+  usermods.add(new UsermodAmbilight());
+  endif
 
   #ifdef USERMOD_DALLASTEMPERATURE
   usermods.add(new UsermodTemperature());
