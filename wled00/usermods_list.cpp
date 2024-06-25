@@ -11,9 +11,9 @@
  */
 //#include "../usermods/EXAMPLE_v2/usermod_v2_example.h"
 
-#ifdef USERMOD_BATTERY
-  #include "../usermods/Battery/usermod_v2_Battery.h"
-#endif
+ifdef USERMOD_AMBILIGHT
+  include "../usermods/Ambilight_to_WLED_Usermod.h"
+endif
 
 #ifdef USERMOD_DALLASTEMPERATURE
   #include "../usermods/Temperature/usermod_temperature.h"
